@@ -1,0 +1,25 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.cache/
+**/uploads/
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/serviceAccountKey.json
+**/*service-account*.json
+**/credentials.json
+**/*.pem
+**/*.key
+
+# Logs and editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
